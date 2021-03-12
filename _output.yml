@@ -1,0 +1,5 @@
+# html_document:
+pdf_document:
+    keep_tex: true
+    # citation_package: biblatex
+fontsize: 12pt

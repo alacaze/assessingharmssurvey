@@ -1,0 +1,114 @@
+---
+title: How do pharmacists assess evidence of drug harms?
+# date: "`r format(Sys.time(), '%d %B, %Y')`"
+header-includes:
+    - \usepackage{mathptmx}
+# bibliography: library.bib
+bibliography: local.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+# biblatexoptions: [backend=biber, natbib, sortcites=none,style=authoryear-comp]
+---
+
+```{r include=FALSE, eval=TRUE}
+
+# options(tinytex.clean = FALSE)
+library(knitr)
+library(kableExtra)
+library(papaja)
+
+```
+
+# Project Team
+
+\begin{tabular}{ll}
+Adam La Caze               & Senior Lecturer\tabularnewline
+                           & School of Pharmacy\tabularnewline
+                           & The University of Queensland\tabularnewline
+                           & a.lacaze@uq.edu.au\tabularnewline[10pt]
+
+Anvir Dhaliwal             & Student, Major in Clinical and Experimental Therapeutics\\
+                           & Bachelor of Pharmacy (Hons)\\
+                           & School of Pharmacy\\
+                           & The University of Queensland\\
+                           & anvir.dhaliwal@uq.net.au\\[10pt]
+
+Nazanin Ghahreman-Falconer & Research Fellow\\
+                           & Centre for Health Services Research\\
+                           & n.ghahremanfalconer@uq.edu.au\\
+\end{tabular}
+
+# Document History
+
+
+
+# Roles
+
+Anvir Dhaliwal is an fourth year BPharm(Hons) student completing her Major of Clinical and Experimental Therapeutics project.
+Anvir will be responsible for distributing the survey, recruiting participants, analysing and reporting the results.
+
+Adam La Caze is Senior Lecturer, School of Pharmacy.
+He has overall responsibility for overseeing the project and supervising Anvir.
+
+Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
+Nazanin is has responsibility for overseeing the project and supervising Anvir.
+
+# Synopsis
+
+\newpage
+\tableofcontents
+\newpage
+
+# Background
+
+Clinicians must assess drug benefits and harms from clinical research in order to make clinically appropriate therapeutic decisions for patients. 
+Reported statistical results inform inferences regarding the effects of drugs. 
+Appropriate interpretation of $p$-values and confidence intervals is essential to guide judicious therapeutic decision-making. 
+Nevertheless, current research suggests that $p$-values and confidence intervals are often misinterpreted [@Hemming2021; @Gigerenzer2004].
+
+Null hypothesis significance testing (NHST) is the most
+commonly used and taught approach to statistical inference [@Hoekstra:2014hf; @Gigerenzer2004; @Doll2005].
+However, this approach has been criticized extensively from a range of perspectives [REFS].
+One common problem is the habitual misinterpretation of NHST results [@Hoekstra:2014hf]. 
+Oakes -@Oakes1986 studied misinterpretation of NHST outcomes amongst 70 academic psychologists by proposing a scenario involving a statistically significant $p$-value accompanied by six false interpretations of the results. 
+The results indicated that on average participants endorsed 2.5 of the false interpretations.
+Similar results have been observed by @Falk1995, @Gigerenzer2004 and @Haller2002 in the understanding of NHST outcomes among professors teaching statistics. 
+Furthermore, misinterpretations were reported amongst statisticians working in pharmaceutical development [@Lecoutre2003], as well as doctors and dentists [@Wulff1987].
+Collectively, these studies suggest misinterpretation of key statistical results are common among professionals irrespective of experience or area of expertise.
+
+The primary criticism of NHST is the dichotomization of evidence based on $p$-value significance at an arbitrary cut-off at 0.05 [@Fidler2009; @Neyman1937].
+Statistical significance is often misconstrued as evidence of effect or no effect [@Hemming2021].
+Confidence intervals are often proposed as an alternative to NHST for statistical inference as a solution to the misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
+Hoekstra et al.^1^ defines a CI as "a numerical interval constructed around the estimate of a parameter." (add 95% true interpretation?) 
+Cumming and Finch^13^ support the use of confidence intervals for statistical inference as confidence intervals provide point and interval estimates allowing for better interpretation.
+
+Hoekstra et al.^1^ evaluated how psychology students and researchers
+interpret confidence intervals in a study similar to. The questionnaire was adopted from
+the questionnaire used in the Gigrenzer^8^ study. The results were
+consistent with the previous studies and suggested that performance did
+not commensurate with experience or education, as the researchers and
+students misinterpreted the confidence intervals similarly.^1^ Though confidence intervals were proposed
+to attenuate the tendency to dichotomize evidence, Hoekstra et al.^1^
+concluded that confidence intervals are employed as an alternative method to significance
+testing.
+
+This project aims to assess how pharmacists and pharmacy students assess
+evidence of drug harms. A survey has been developed to evaluate the
+primary resources participants consult for evidence of drug harms, as
+well as their ability to appropriately interpret statistical
+findings(?).
+
+Questions have been assumed from Hoekstra et al.^1^ and Gigrenzer^8^
+studies, to appraise participants' ability to interpret $p$-values and
+confidence intervals. (expand on statements?)
+
+# Aim
+
+# Expected Outcomes
+
+# Methods
+
+# Data Management
+
+# Outcome and future plans
+
+# References {-}
