@@ -6,7 +6,8 @@ header-includes:
 # bibliography: library.bib
 bibliography: local.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
-# biblatexoptions: [backend=biber, natbib, sortcites=none,style=authoryear-comp]
+colorlinks: true
+linkcolor: Blue
 ---
 
 ```{r include=FALSE, eval=TRUE}
@@ -39,7 +40,9 @@ Nazanin Ghahreman-Falconer & Research Fellow\\
 
 # Document History
 
+The current document and its history can be found at [here](https://github.com/alacaze/assessingharmssurvey/blob/main/AssessingHarms_ProjectDescription.rmd).
 
+The commit for the current draft is `r system('git rev-parse --short HEAD', intern = TRUE)`, version `r system('git describe --tags', intern = TRUE)` (`r system('git log -1 --format=%cd --date=short', intern = TRUE)`).
 
 # Roles
 
@@ -50,7 +53,7 @@ Adam La Caze is Senior Lecturer, School of Pharmacy.
 He has overall responsibility for overseeing the project and supervising Anvir.
 
 Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
-Nazanin is has responsibility for overseeing the project and supervising Anvir.
+Nazanin is has responsibility for overallseeing the project and supervising Anvir.
 
 # Synopsis
 
@@ -77,19 +80,15 @@ Collectively, these studies suggest misinterpretation of key statistical results
 
 The primary criticism of NHST is the dichotomization of evidence based on $p$-value significance at an arbitrary cut-off at 0.05 [@Fidler2009; @Neyman1937].
 Statistical significance is often misconstrued as evidence of effect or no effect [@Hemming2021].
-Confidence intervals are often proposed as an alternative to NHST for statistical inference as a solution to the misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
-Hoekstra et al.^1^ defines a CI as "a numerical interval constructed around the estimate of a parameter." (add 95% true interpretation?) 
-Cumming and Finch^13^ support the use of confidence intervals for statistical inference as confidence intervals provide point and interval estimates allowing for better interpretation.
+Confidence intervals are proposed as an alternative to NHST for statistical inference, specifically as a way to avoid the  misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
 
-Hoekstra et al.^1^ evaluated how psychology students and researchers
-interpret confidence intervals in a study similar to. The questionnaire was adopted from
-the questionnaire used in the Gigrenzer^8^ study. The results were
-consistent with the previous studies and suggested that performance did
-not commensurate with experience or education, as the researchers and
-students misinterpreted the confidence intervals similarly.^1^ Though confidence intervals were proposed
-to attenuate the tendency to dichotomize evidence, Hoekstra et al.^1^
-concluded that confidence intervals are employed as an alternative method to significance
-testing.
+@Hoekstra:2014hf evaluated how psychology students and researchers
+interpret confidence intervals in a study similar to @Oakes1986 and discussed in @Gigerenzer2004. 
+Hoekstra and colleagues adopted the questionnaire to focus on infernces regarding confidence intervals rather than $p$-values.
+@Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values and also suggested that misinterpretation of confidence intervals was comment regardless of experience or education.
+Researchers and statistical educators misinterpreted confidence interval at similar rates to students [@Hoekstra:2014hf].
+Hoekstra and colleagues findings suggest that 
+Though confidence intervals were proposed to attenuate the tendency to dichotomize evidence, Hoekstra et al.^1^ concluded that confidence intervals are employed as an alternative method to significance testing.
 
 This project aims to assess how pharmacists and pharmacy students assess
 evidence of drug harms. A survey has been developed to evaluate the
