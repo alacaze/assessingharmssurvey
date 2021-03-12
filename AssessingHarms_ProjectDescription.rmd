@@ -22,11 +22,6 @@ library(papaja)
 # Project Team
 
 \begin{tabular}{ll}
-Adam La Caze               & Senior Lecturer\tabularnewline
-                           & School of Pharmacy\tabularnewline
-                           & The University of Queensland\tabularnewline
-                           & a.lacaze@uq.edu.au\tabularnewline[10pt]
-
 Anvir Dhaliwal             & Student, Major in Clinical and Experimental Therapeutics\\
                            & Bachelor of Pharmacy (Hons)\\
                            & School of Pharmacy\\
@@ -35,25 +30,32 @@ Anvir Dhaliwal             & Student, Major in Clinical and Experimental Therape
 
 Nazanin Ghahreman-Falconer & Research Fellow\\
                            & Centre for Health Services Research\\
-                           & n.ghahremanfalconer@uq.edu.au\\
+                           & The University of Queensland\\
+                           & n.ghahremanfalconer@uq.edu.au\\[10pt]
+
+Adam La Caze               & Senior Lecturer\tabularnewline
+                           & School of Pharmacy\tabularnewline
+                           & The University of Queensland\tabularnewline
+                           & a.lacaze@uq.edu.au\tabularnewline[10pt]
 \end{tabular}
 
 # Document History
 
 The current document and its history can be found at [here](https://github.com/alacaze/assessingharmssurvey/blob/main/AssessingHarms_ProjectDescription.rmd).
 
-The commit for the current draft is `r system('git rev-parse --short HEAD', intern = TRUE)`, version `r system('git describe --tags', intern = TRUE)` (`r system('git log -1 --format=%cd --date=short', intern = TRUE)`).
+Version `r system('git describe --tags', intern = TRUE)` (`r system('git log -1 --format=%cd --date=short', intern = TRUE)`).
 
 # Roles
 
 Anvir Dhaliwal is an fourth year BPharm(Hons) student completing her Major of Clinical and Experimental Therapeutics project.
 Anvir will be responsible for distributing the survey, recruiting participants, analysing and reporting the results.
 
+Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
+Nazanin is has responsibility for overseeing the project and supervising Anvir.
+
 Adam La Caze is Senior Lecturer, School of Pharmacy.
 He has overall responsibility for overseeing the project and supervising Anvir.
 
-Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
-Nazanin is has responsibility for overallseeing the project and supervising Anvir.
 
 # Synopsis
 
@@ -63,15 +65,15 @@ Nazanin is has responsibility for overallseeing the project and supervising Anvi
 
 # Background
 
-Clinicians must assess drug benefits and harms from clinical research in order to make clinically appropriate therapeutic decisions for patients. 
-Reported statistical results inform inferences regarding the effects of drugs. 
-Appropriate interpretation of $p$-values and confidence intervals is essential to guide judicious therapeutic decision-making. 
-Nevertheless, current research suggests that $p$-values and confidence intervals are often misinterpreted [@Hemming2021; @Gigerenzer2004].
+Practitioners must assess the benefits and harms of medicines and other interventions in order to provide clinically appropriate advice.
+This involves critically appraising clinical evidence regarding drug treatments and appropriately interpreting the reported statistical results to inform inferences regarding the effects of drugs. 
+The appropriate interpretation of $p$-values and confidence intervals is essential to guide judicious therapeutic decision-making. 
+However, $p$-values and confidence intervals are often misinterpreted by researchers and practitioners [@Hemming2021; @Gigerenzer2004].
+
 
 Null hypothesis significance testing (NHST) is the most
 commonly used and taught approach to statistical inference [@Hoekstra:2014hf; @Gigerenzer2004; @Doll2005].
-However, this approach has been criticized extensively from a range of perspectives [REFS].
-One common problem is the habitual misinterpretation of NHST results [@Hoekstra:2014hf]. 
+However, this approach to statistical inference is often misinterpreted.
 Oakes -@Oakes1986 studied misinterpretation of NHST outcomes amongst 70 academic psychologists by proposing a scenario involving a statistically significant $p$-value accompanied by six false interpretations of the results. 
 The results indicated that on average participants endorsed 2.5 of the false interpretations.
 Similar results have been observed by @Falk1995, @Gigerenzer2004 and @Haller2002 in the understanding of NHST outcomes among professors teaching statistics. 
@@ -83,28 +85,36 @@ Statistical significance is often misconstrued as evidence of effect or no effec
 Confidence intervals are proposed as an alternative to NHST for statistical inference, specifically as a way to avoid the  misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
 
 @Hoekstra:2014hf evaluated how psychology students and researchers
-interpret confidence intervals in a study similar to @Oakes1986 and discussed in @Gigerenzer2004. 
-Hoekstra and colleagues adopted the questionnaire to focus on infernces regarding confidence intervals rather than $p$-values.
-@Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values and also suggested that misinterpretation of confidence intervals was comment regardless of experience or education.
-Researchers and statistical educators misinterpreted confidence interval at similar rates to students [@Hoekstra:2014hf].
-Hoekstra and colleagues findings suggest that 
-Though confidence intervals were proposed to attenuate the tendency to dichotomize evidence, Hoekstra et al.^1^ concluded that confidence intervals are employed as an alternative method to significance testing.
+interpret confidence intervals in a study similar to @Oakes1986 (and  discussed in @Gigerenzer2004). 
+Hoekstra and colleagues adopted the questionnaire to focus on inferences regarding confidence intervals rather than $p$-values.
+@Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values and also suggested that misinterpretation of confidence intervals was comment regardless of experience or education [@Hoekstra:2014hf].
+These findings suggest that the inferential challenges of confidence intervals and $p$-values are similar.
 
-This project aims to assess how pharmacists and pharmacy students assess
-evidence of drug harms. A survey has been developed to evaluate the
-primary resources participants consult for evidence of drug harms, as
-well as their ability to appropriately interpret statistical
-findings(?).
-
-Questions have been assumed from Hoekstra et al.^1^ and Gigrenzer^8^
-studies, to appraise participants' ability to interpret $p$-values and
-confidence intervals. (expand on statements?)
+Appropriately interpreting statistical findings in relation to drug harms can be challenging.
+Most randomized trials are set up to provide a reliable estimate of drug benefits rather than harms [@Vandenbroucke2008a; @Osimani2014a].
+Randomized trials may be too short to reliably identify drug harms and the collection of data is frequently inadequately specified [@Phillips2019]. <!-- TODO: 12/03/2021 Improve -->
+Pharmacists need to be able to appropriately interpret statistical findings related to drug harms in clinical studies, but there is very little research exploring how well they perform.
+This study will address this gap.
 
 # Aim
+
+This project aims to assess how pharmacists and pharmacy students assess statistical evidence regarding drug harms. 
 
 # Expected Outcomes
 
 # Methods
+
+A brief survey has been developed based on the work of @Oakes1986; @Gigerenzer2004 and @Hoekstra:2014hf to explore the inferences pharmacists make in relation to the statistical findings of clinical studies reporting drug harms.
+Scenarios and questions regarding $p$-values and confidence intervals have been modified from @Oakes1986 and @Hoekstra:2014hf respectively.
+The scenario now focuses on statistical findings regarding drug harms.
+
+The survey is currently being piloted in a small sample representative of prospective participants to ensure that the questions make sense and that the survey can be completed within 10 minutes.
+
+## Participants
+
+## Recruitment
+
+
 
 # Data Management
 
