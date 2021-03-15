@@ -1,6 +1,10 @@
 ---
 title: How do pharmacists assess evidence of drug harms?
 # date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+   bookdown::pdf_document2:
+      toc: false
+fontsize: 12pt
 header-includes:
     - \usepackage{mathptmx}
 # bibliography: library.bib
@@ -8,6 +12,7 @@ bibliography: local.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 colorlinks: true
 linkcolor: Blue
+link-citations: yes
 ---
 
 ```{r include=FALSE, eval=TRUE}
@@ -54,7 +59,7 @@ Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Resear
 Nazanin is has responsibility for overseeing the project and supervising Anvir.
 
 Adam La Caze is Senior Lecturer, School of Pharmacy.
-He has overall responsibility for overseeing the project and supervising Anvir.
+He has overall responsibility for the project and supervising Anvir.
 
 
 # Synopsis
@@ -73,51 +78,354 @@ However, $p$-values and confidence intervals are often misinterpreted by researc
 
 Null hypothesis significance testing (NHST) is the most
 commonly used and taught approach to statistical inference [@Hoekstra:2014hf; @Gigerenzer2004; @Doll2005].
-However, this approach to statistical inference is often misinterpreted.
+This approach to statistical inference is often misinterpreted.
 Oakes -@Oakes1986 studied misinterpretation of NHST outcomes amongst 70 academic psychologists by proposing a scenario involving a statistically significant $p$-value accompanied by six false interpretations of the results. 
 The results indicated that on average participants endorsed 2.5 of the false interpretations.
-Similar results have been observed by @Falk1995, @Gigerenzer2004 and @Haller2002 in the understanding of NHST outcomes among professors teaching statistics. 
+Similar results have been observed by @Falk1995, @Gigerenzer2004 and @Haller2002. 
 Furthermore, misinterpretations were reported amongst statisticians working in pharmaceutical development [@Lecoutre2003], as well as doctors and dentists [@Wulff1987].
-Collectively, these studies suggest misinterpretation of key statistical results are common among professionals irrespective of experience or area of expertise.
+These studies suggest misinterpretation of key statistical results is common among professionals irrespective of experience or area of expertise.
 
-The primary criticism of NHST is the dichotomization of evidence based on $p$-value significance at an arbitrary cut-off at 0.05 [@Fidler2009; @Neyman1937].
-Statistical significance is often misconstrued as evidence of effect or no effect [@Hemming2021].
+The primary criticism of NHST is the dichotomization of evidence based on an arbitrary cut-off of a $p$-value less thank 0.05 [@Fidler2009].
+The consequence is that statistical significance is often misconstrued as evidence of either effect or no effect [@Hemming2021].
 Confidence intervals are proposed as an alternative to NHST for statistical inference, specifically as a way to avoid the  misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
-
 @Hoekstra:2014hf evaluated how psychology students and researchers
 interpret confidence intervals in a study similar to @Oakes1986 (and  discussed in @Gigerenzer2004). 
 Hoekstra and colleagues adopted the questionnaire to focus on inferences regarding confidence intervals rather than $p$-values.
-@Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values and also suggested that misinterpretation of confidence intervals was comment regardless of experience or education [@Hoekstra:2014hf].
+@Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values [@Hoekstra:2014hf].
 These findings suggest that the inferential challenges of confidence intervals and $p$-values are similar.
 
-Appropriately interpreting statistical findings in relation to drug harms can be challenging.
+Appropriately interpreting statistical findings in relation to drug harms raises additional challenges.
 Most randomized trials are set up to provide a reliable estimate of drug benefits rather than harms [@Vandenbroucke2008a; @Osimani2014a].
 Randomized trials may be too short to reliably identify drug harms and the collection of data is frequently inadequately specified [@Phillips2019]. <!-- TODO: 12/03/2021 Improve -->
+Cohort and case control studies can address some of these problems, but have other problems in relation to confounding factors and the challenges of retrospective or incidental data collection.
 Pharmacists need to be able to appropriately interpret statistical findings related to drug harms in clinical studies, but there is very little research exploring how well they perform.
 This study will address this gap.
 
 # Aim
 
-This project aims to assess how pharmacists and pharmacy students assess statistical evidence regarding drug harms. 
+This project aims to assess how pharmacists, pharmacy students and pharmacy educators assess statistical evidence regarding drug harms. 
+
+# Specific research objectives
+
+1. Determine the extent to which pharmacists, pharmacy students and pharmacy educators correctly interpret statistical findings relating to drug harm
+2. Explore the relationship between experience and correct interpretation of statistical findings relating to drug harm, and professional role and correct interpretation of statistical findings relating to drug harm
 
 # Expected Outcomes
 
+The study will provide information on how pharmacists interpret statistical findings regarding drug harms.
+It also seeks to provide insight into whether pharmacists ability to appropriately interpret statistical findings relating to drug harm differ according to level of training (students versus practitioners) and area of practice (community, hospital, academia).
+These findings will inform the teaching and continuing education of pharmacists.
+
 # Methods
 
-A brief survey has been developed based on the work of @Oakes1986; @Gigerenzer2004 and @Hoekstra:2014hf to explore the inferences pharmacists make in relation to the statistical findings of clinical studies reporting drug harms.
-Scenarios and questions regarding $p$-values and confidence intervals have been modified from @Oakes1986 and @Hoekstra:2014hf respectively.
-The scenario now focuses on statistical findings regarding drug harms.
+A brief online survey has been developed based on the work of @Oakes1986; @Gigerenzer2004 and @Hoekstra:2014hf to explore the inferences pharmacists make in relation to the statistical findings of clinical studies reporting drug harms.
+Scenarios and questions regarding $p$-values and confidence intervals have been modified from @Oakes1986 and @Hoekstra:2014hf to focus on statistical findings regarding drug harms.
 
-The survey is currently being piloted in a small sample representative of prospective participants to ensure that the questions make sense and that the survey can be completed within 10 minutes.
+The survey is expected to take no more than 10 minutes.
+It contains:
+
+   * Brief demographic information
+   * 2 questions regarding use of evidence for drug harms
+   * 3 brief scenarios that provide the results from clinical studies reporting drug harms (@Bresalier:2005pi and @Fitchett2018) that ask participants to answer YES or NO to four to six statements interpreting the results presented.
+
+The survey text is provided in the [Appendix](#survey).
+
+The survey is currently being piloted in a small sample representative of prospective participants to ensure that the questions make sense and that the survey can be completed within eht expected time.
 
 ## Participants
 
+Three groups of participants will be invited to undertake the online survey.
+
+1. Practising pharmacists (including intern pharmacists)
+2. Pharmacy academics (pharmacist and non-pharmacist academics teaching pharmacy students)
+3. Pharmacy students in Y2 to Y4 of the program
+
+Recruitment from these groups will allow us to address the research objectives.
+
 ## Recruitment
 
+Recruitment for the three groups of participants will proceed as follows:
 
+1. **Practising pharmacists** (including intern pharmacists).
 
-# Data Management
+   Pharmacists will be recruited using three methods 
+
+   * social media (Twitter, Facebook)
+   * professional networks of the investigators
+   * invitation posted to the Blackboard Hub sites for students enrolled in the Intern Training Program and MClinPharm.
+
+2. **Pharmacy academics** (pharmacist and non-pharmacist academics teaching pharmacy students)
+
+   Pharmacy academics will be recruited using the investigator's professional networks and publicly listed email addresses.
+
+3. **Pharmacy students** in Y2 to Y4 of the program
+
+   Pharmacy students will be recruited by posting an invitation to complete the survey posted to the Blackboard Hub sites for students in Y2, Y3 and Y4.
+
+Invitations to participate will be send via email, posted on Hub sites and social media on three occasions: the initial invite, 2-week follow-up and 5-week follow-up.
+
+Email invitations will include information regarding the 2 and 5-week follow-up and provide an avenue for prospective participants to opt-out of these emails.
+
+## Analysis
+
+Research objective 1 can be addressed descriptively based on the participants who respond to the survey.
+We expect that a sample of 50 participants, including a mixture of pharmacists, pharmacy students and pharmacy educators, will provide a sufficient indication of how well pharmacists interpret the statistical findings related to drug harms.
+
+Our ability to address research objective 2 will depend on participation rates from the included groups.
+A test of two proportions (i.e. the percentage of incorrect statements to the three scenarios)  would need a sample of 21 participants in one group (e.g. practising pharmacists), a sample of 30 participants in another group (e.g. pharmacy students) for the proportions test to have 80% power to detect a *large difference* between the groups (e.g. Cohen's $h = 0.8$).
+Calculated using R (4.0.2) and the `pwr` package.
+
+```{r wrap-hook, echo=FALSE}
+library(knitr)
+hook_output = knit_hooks$get('output')
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n <- options$linewidth)) {
+    x = knitr:::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+    x = paste(x, collapse = '\n')
+  }
+  hook_output(x, options)
+})
+```
+
+```{r echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE, tidy=TRUE, results=TRUE, error=FALSE, linewidth=80}
+
+library(pwr)
+
+pwr.2p2n.test(h=0.8, n1 = 30, power = 0.8)
+
+```
+
+# Ethical considerations
+
+## Respect for participants
+
+This is a brief online survey that is not collecting identifiable data.
+The risks of participation are negligible to low.
+
+The approach to recruitment is non-invasive.
+Invitations will be posted to undergraduate and postgraduate student Blackboard Hub sites (BPharm(Hons), MClinPharm, Intern Training Program) on three occasions.
+These Blackboard Hub sites are used for sharing information of relevance to the cohort, including invitations to participate in research.
+
+An email list of pharmacy educators will be created using the investigator's professional networks and publicly listed email addresses.
+Recruitment will focus on pharmacy educators in Southeast Queensland and prospective participants who do not wish to receive follow-up emails are given an avenue to opt-out.
+
+The demographic details collected in the survey are not expected to permit the identification of individuals.
+Nonetheless all findings will be reported in aggregate.
+
+The survey questions are non-invasive and should not take longer than 10 minutes to complete.
+While some of the questions may be cognitively challenging, they are not expected to elicit an emotional response.
+
+## Data Management
+
+The research data for the proposed project will be managed via the UQ Research Data Manager (UQRDM). 
+Project metadata such as the project name and the collaborators who will have access to the data, will be recorded in a project record within UQRDM. 
+All project-related data will be stored in a durable format alongside this project metadata, which will be regularly backed up by secure ITS servers. 
+Data will be accessible only to the collaborators recorded on the project record, and will be only accessible via their institutional usernames and passwords.
 
 # Outcome and future plans
 
-# References {-}
+The results of the study will be published in a journal article in the pharmacy practice literature.
+
+The database (containing non-identifiable information) will be retained in a digital format for at least 7 years following publication of the results of the study.
+
+The database will be available for independent verification of the results of the analysis and for other research projects that have received ethical approval.
+
+# References
+
+<div id="refs"></div>
+
+
+\newpage
+
+# (APPENDIX) Appendix {-}
+
+# Survey {#survey}
+
+The survey will be delivered online using Qualtrics.
+No identifying information will be retained (including: names, IP addresses).
+
+Statements provided for the APPROVe scenario and EMPA-REG OUTCOME  have been modified from @Oakes1986 and @Hoekstra:2014hf respectively.
+The questions are in the public domain.
+
+<!-- TODO: 15/03/2021, update  -->
+
+---
+
+What is your gender?
+
+- Male 
+- Female 
+- Other (Self-Identify)
+- I prefer not to answer
+
+ 
+What is your age?
+
+- 18-20
+- 21-29
+- 30-39
+- 40-49
+- 50-59
+- 60-64
+- 65+ 
+
+Which of the following best describes your primary job as a pharmacist? 
+
+- Student
+- Hospital Pharmacist
+- Community Pharmacist
+- Primary Care Pharmacist 
+- Academic
+- Other. (Please specify: )
+
+How many years of working experience do you have?
+
+- 1-3 years 
+- 3-5 years 
+- 5-10 years
+- 10-20 years 
+- 20+ years 
+
+How often do you access primary research papers (e.g. published clinical trials) in your work or study?
+
+- Daily
+- Weekly
+- Monthly
+- Once every 2-3 months
+- Less often then every 2-3 months 
+- Never
+- Other (please state….)
+
+---
+
+Rank the following from most to least reliable source of evidence for drug harms.
+
+
+1. Randomized trial
+2. Large cohort study
+3. Case-control study
+4. Well-established mechanistic evidence from the biomedical sciences
+5. An amalgamation of evidence from randomized, non-randomized studies and well-established mechanistic evidence
+
+
+Rank the following from most to least important limitation of randomized trials for providing evidence of drug harms.
+
+
+1. Lack of statistical power
+2. Confounding
+3. Deliberate misreporting
+4. Under-reporting of unsuspected harms
+5. Selective recruitment
+
+---
+
+In the APPROVe trial, patients with a history of colorectal adenomas were randomized to receive rofecoxib 25mg daily or placebo for three years.  The primary outcome of the trial was related to colorectal adenomas, thrombotic events was a pre-planned secondary outcome.
+
+The relative risk for participants taking rofecoxib rather than placebo to suffer a confirmed thrombotic event during the study was 1.92 (95% CI 1.19 to 3.11; *p* = 0.008).
+
+Please mark each of the statements below as “true” or “false”. False means that the statement does not follow logically from the results of APPROVe. Also note that all, several, or none of the statements may be correct:
+
+
+1. The probability that the true relative risk is greater than 1 is at least 95%
+2. The probability that the true relative risk equals 1 is smaller than 5%
+3. The “null hypothesis” that the true relative risk equals 1 is likely to be incorrect
+4. There is a 95% probability that the true relative risk lies between 1.19 and 3.11
+5. We can be 95% confident that the true relative risk lies between 1.19 and 3.11
+6. If we were to repeat the experiment over and over, then 95% of the time the true mean falls between 1.19 and 3.11
+
+---
+
+EMPA-REG OUTCOME assessed the effects of new diabetes medication, empagliflozin, on cardiovascular outcomes in patients with Type 2 diabetes. Participants received empagliflozin or placebo for approximately 3 years and the primary outcome of the trial was a composite of major cardiovascular outcomes. 
+
+Participants who received empagliflozin were less likely to experience the primary outcome compared to participants who received placebo: empagliflozin 10.5%, placebo 12.1%, hazard ratio 0.86 (95% CI 0.74 to 0.99; *p =* 0.04).
+
+Please mark each of the statements below as “true” or “false”. False means that the statement does not follow logically from the results of EMPA-REG OUTCOME on the primary endpoint. Also note that all, several, or none of the statements may be correct:
+
+
+1. The null hypothesis that there is no difference empagliflozin and placebo has been absolutely disproved.
+2. The *p* value provides the probability of the null hypothesis being true.
+3. The alternative hypothesis that there is a difference empagliflozin and placebo has been absolutely proved.
+4. The probability of the alternative hypothesis being true can be deduced.
+5. You know, if you decide to reject the null hypothesis, the probability that you are making the wrong decision.
+6.  If, hypothetically, the experiment were repeated a great number of times, you would obtain a significant result on 96% of occasions.
+
+---
+
+The following statements refer to the findings of APPROVe and EMPA-REG OUTCOME.
+
+APPROVe: The relative risk (RR) for participants taking rofecoxib rather than placebo to suffer a confirmed thrombotic event during the study was, RR 1.92 (95% CI 1.19 to 3.11; *p* = 0.008).
+EMPA-REG OUTCOME: The hazard ratio (HR) for participants who received empagliflozin compared to placebo for major cardiovascular outcomes was, HR 0.86 (95% CI 0.74 to 0.99; *p =* 0.04).
+
+Please mark each of the statements below as “true” or “false”. False means that the statement does not follow logically from the results of APPROVe or EMPA-REG OUTCOME. Also note that all, several or none of the statements may be correct:
+ 
+
+1. The *p* value reported in the APPROVe study (*p* = 0.008) compared to EMPA-REG (*p =* 0.04) indicates that there is stronger evidence for the effects of rofecoxib on thrombotic events than empagliflozin on major cardiovascular outcomes. 
+2. The findings of EMPA-REG OUTCOME are less likely to be accurate compared to the APPROVe study because the confidence interval for EMPA-REG OUTCOME is closer to 1
+3. The findings provided above show that if 100 patients took rofecoxib for 5 years, and 100 patients took empagliflozin for 5 years, more patients taking rofecoxib would have a thrombotic event compared to the number of patients taking empagliflozin who would avoid a major cardiovascular event. 
+4. The findings provided above that if 100 patients took rofecoxib for 5 years, and 100 patients took empagliflozin for 5 years, more patients taking emagliflozin would avoid a major cardiovascular event compared to the number of patients taking rofecoxib who would have a thrombotic event.
+
+# Invitation to participate {#invitation}
+
+
+## Email
+
+Dear Colleague
+
+We invite you to take part in a short online survey regarding the appropriate interpretation of statistical findings in relation to drug harms.
+
+The survey is part of Anvir Dhaliwal's BPharm(Hons) Major in Clinical and Experimental Therapeutics.
+
+The survey will take approximately 10 minutes.
+No identifying information is collected as part of the survey.
+
+[LINK TO SURVEY]
+
+We will send a reminder email regarding the survey in 2 and 5 weeks.
+If you would rather not receive these emails, please opt-out [here](mailto:a.lacaze@uq.edu.au?cc=anvir.dhaliwal@uq.net.au&subject=Assessing%20Harm%20Survey%20OPTOUT&body=Please%20remove%20me%20from%20email%20list) (if the link doesn't work send a return email with adding "OPTOUT" to the subject line).
+
+Thank you for your time.
+
+Kind Regards  
+
+Adam La Caze  
+Anvir Dhaliwal  
+Nazanin Ghahreman-Falconer
+
+
+This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email humanethics@research.uq.edu.au.
+
+Ethics ID number: xx
+
+## Hub post
+
+*Hub sites: Intern Training Program, Masters of Clinical Pharmacy, Y2--Y4 BPharm(Hons)*
+
+We invite you to take part in a short online survey regarding the appropriate interpretation of statistical findings in relation to drug harms.
+
+The survey is part of Anvir Dhaliwal's BPharm(Hons) Major in Clinical and Experimental Therapeutics.
+
+The survey will take approximately 10 minutes.
+No identifying information is collected as part of the survey.
+
+[LINK TO SURVEY]
+
+Thank you for your time.
+
+Kind Regards  
+
+Anvir Dhaliwal  
+Nazanin Ghahreman-Falconer  
+Adam La Caze  
+
+This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email humanethics@research.uq.edu.au.
+
+Ethics ID number: xx
+
+## Social media
+
+How do pharmacists assess evidence of drug harms? 
+We invite pharmacists, students and educators to complete 10 minute survey. Details and survey: [LINK]
+
