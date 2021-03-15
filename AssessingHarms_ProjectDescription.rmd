@@ -64,6 +64,12 @@ He has overall responsibility for the project and supervising Anvir.
 
 # Synopsis
 
+Pharmacists need to be able to assess statistical evidence regarding the harms of medicines.
+This includes being able to appropriately interpret statistical findings such as $p$ values and confidence intervals and understanding some of the common limitations of methods used to collect data on drug harms.
+
+Previous research has demonstrated that a wide variety of professionals frequently misinterpret statistical findings.
+This study will use a brief online survey to assess the extent to which pharmacists, pharmacy students and pharmacy educators correctly interpret statistical findings related to drug harm.
+
 \newpage
 \tableofcontents
 \newpage
@@ -81,23 +87,23 @@ commonly used and taught approach to statistical inference [@Hoekstra:2014hf; @G
 This approach to statistical inference is often misinterpreted.
 Oakes -@Oakes1986 studied misinterpretation of NHST outcomes amongst 70 academic psychologists by proposing a scenario involving a statistically significant $p$-value accompanied by six false interpretations of the results. 
 The results indicated that on average participants endorsed 2.5 of the false interpretations.
-Similar results have been observed by @Falk1995, @Gigerenzer2004 and @Haller2002. 
+Similar results have been observed by @Falk1995 and @Haller2002, and discussed in @Gigerenzer2004. 
 Furthermore, misinterpretations were reported amongst statisticians working in pharmaceutical development [@Lecoutre2003], as well as doctors and dentists [@Wulff1987].
 These studies suggest misinterpretation of key statistical results is common among professionals irrespective of experience or area of expertise.
 
-The primary criticism of NHST is the dichotomization of evidence based on an arbitrary cut-off of a $p$-value less thank 0.05 [@Fidler2009].
+The primary criticism of NHST is the dichotomization of evidence based on an arbitrary cut-off of a $p$-value less than 0.05 [@Fidler2009].
 The consequence is that statistical significance is often misconstrued as evidence of either effect or no effect [@Hemming2021].
-Confidence intervals are proposed as an alternative to NHST for statistical inference, specifically as a way to avoid the  misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
+Confidence intervals are proposed as an alternative to NHST for statistical inference to avoid the  misinterpretation of point estimate significance testing [@Fidler2009; @Cumming2001].
 @Hoekstra:2014hf evaluated how psychology students and researchers
-interpret confidence intervals in a study similar to @Oakes1986 (and  discussed in @Gigerenzer2004). 
-Hoekstra and colleagues adopted the questionnaire to focus on inferences regarding confidence intervals rather than $p$-values.
+interpret confidence intervals. 
+Hoekstra and colleagues adopted the questionnaire discussed in @Gigerenzer2004 to focus on inferences regarding confidence intervals rather than $p$-values.
 @Hoekstra:2014hf observed results consistent with the previous studies focusing on $p$-values [@Hoekstra:2014hf].
 These findings suggest that the inferential challenges of confidence intervals and $p$-values are similar.
 
 Appropriately interpreting statistical findings in relation to drug harms raises additional challenges.
 Most randomized trials are set up to provide a reliable estimate of drug benefits rather than harms [@Vandenbroucke2008a; @Osimani2014a].
-Randomized trials may be too short to reliably identify drug harms and the collection of data is frequently inadequately specified [@Phillips2019]. <!-- TODO: 12/03/2021 Improve -->
-Cohort and case control studies can address some of these problems, but have other problems in relation to confounding factors and the challenges of retrospective or incidental data collection.
+Randomized trials may be too short to reliably identify drug harms and the collection and reporting of data is frequently inadequately specified [@Phillips2019]. <!-- TODO: 12/03/2021 Improve -->
+Cohort and case control studies can address some of these problems, but have other challenges in relation to confounding factors and retrospective or incidental data collection.
 Pharmacists need to be able to appropriately interpret statistical findings related to drug harms in clinical studies, but there is very little research exploring how well they perform.
 This study will address this gap.
 
@@ -118,7 +124,7 @@ These findings will inform the teaching and continuing education of pharmacists.
 
 # Methods
 
-A brief online survey has been developed based on the work of @Oakes1986; @Gigerenzer2004 and @Hoekstra:2014hf to explore the inferences pharmacists make in relation to the statistical findings of clinical studies reporting drug harms.
+A brief online survey has been developed to explore the inferences pharmacists make in relation to the statistical findings of clinical studies reporting drug harms.
 Scenarios and questions regarding $p$-values and confidence intervals have been modified from @Oakes1986 and @Hoekstra:2014hf to focus on statistical findings regarding drug harms.
 
 The survey is expected to take no more than 10 minutes.
@@ -126,11 +132,11 @@ It contains:
 
    * Brief demographic information
    * 2 questions regarding use of evidence for drug harms
-   * 3 brief scenarios that provide the results from clinical studies reporting drug harms (@Bresalier:2005pi and @Fitchett2018) that ask participants to answer YES or NO to four to six statements interpreting the results presented.
+   * 3 brief scenarios that provide the results from clinical studies reporting drug harms (@Bresalier:2005pi and @Fitchett2018) that ask participants to answer YES or NO to four to six statements interpreting the results that are presented.
 
 The survey text is provided in the [Appendix](#survey).
 
-The survey is currently being piloted in a small sample representative of prospective participants to ensure that the questions make sense and that the survey can be completed within eht expected time.
+The survey is currently being piloted in a small sample representative of prospective participants to ensure that the questions make sense and that the survey can be completed within the expected time.
 
 ## Participants
 
@@ -139,8 +145,6 @@ Three groups of participants will be invited to undertake the online survey.
 1. Practising pharmacists (including intern pharmacists)
 2. Pharmacy academics (pharmacist and non-pharmacist academics teaching pharmacy students)
 3. Pharmacy students in Y2 to Y4 of the program
-
-Recruitment from these groups will allow us to address the research objectives.
 
 ## Recruitment
 
@@ -166,14 +170,16 @@ Invitations to participate will be send via email, posted on Hub sites and socia
 
 Email invitations will include information regarding the 2 and 5-week follow-up and provide an avenue for prospective participants to opt-out of these emails.
 
+Invitation wording is provided in the [Appendix](#invitation).
+
 ## Analysis
 
 Research objective 1 can be addressed descriptively based on the participants who respond to the survey.
 We expect that a sample of 50 participants, including a mixture of pharmacists, pharmacy students and pharmacy educators, will provide a sufficient indication of how well pharmacists interpret the statistical findings related to drug harms.
 
 Our ability to address research objective 2 will depend on participation rates from the included groups.
-A test of two proportions (i.e. the percentage of incorrect statements to the three scenarios)  would need a sample of 21 participants in one group (e.g. practising pharmacists), a sample of 30 participants in another group (e.g. pharmacy students) for the proportions test to have 80% power to detect a *large difference* between the groups (e.g. Cohen's $h = 0.8$).
-Calculated using R (4.0.2) and the `pwr` package.
+A test of two proportions (i.e. the percentage of incorrect statements to the three scenarios)  would need a sample of 21 participants in one group (e.g. practising pharmacists) and  a sample of 30 participants in another group (e.g. pharmacy students) for the proportions test to have 80% power to detect a *large difference* between the groups (e.g. Cohen's $h = 0.8$).
+Calculated using R (4.0.2) and the `pwr` package:
 
 ```{r wrap-hook, echo=FALSE}
 library(knitr)
@@ -190,7 +196,7 @@ knit_hooks$set(output = function(x, options) {
 })
 ```
 
-```{r echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE, tidy=TRUE, results=TRUE, error=FALSE, linewidth=80}
+```{r echo=TRUE, eval=FALSE, message=FALSE, warning=FALSE, tidy=TRUE, results=TRUE, error=FALSE, linewidth=80}
 
 library(pwr)
 
@@ -210,6 +216,7 @@ Invitations will be posted to undergraduate and postgraduate student Blackboard 
 These Blackboard Hub sites are used for sharing information of relevance to the cohort, including invitations to participate in research.
 
 An email list of pharmacy educators will be created using the investigator's professional networks and publicly listed email addresses.
+The invitation email will sent in such a way that the email addresses from the list will not be shared.
 Recruitment will focus on pharmacy educators in Southeast Queensland and prospective participants who do not wish to receive follow-up emails are given an avenue to opt-out.
 
 The demographic details collected in the survey are not expected to permit the identification of individuals.
@@ -254,6 +261,20 @@ The questions are in the public domain.
 
 ---
 
+This survey invites pharmacists, pharmacy students and pharmacy educators to answer questions regarding how they assess statistical evidence of drug harms. 
+
+The survey will take up to 10 minutes to complete. We encourage you to answer each question to the best of your knowledge even if you are unsure.
+
+No identifying data is collected as part of the survey.
+
+By completing this survey, you are consenting to participate in the study. 
+You may exit the survey and withdraw consent at any time by closing the web browser. 
+Once the survey has been submitted consent cannot be withdrawn as the responses are de-identified.
+
+This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email humanethics@research.uq.edu.au.
+
+---
+
 What is your gender?
 
 - Male 
@@ -264,13 +285,12 @@ What is your gender?
  
 What is your age?
 
-- 18-20
+- < 20
 - 21-29
 - 30-39
 - 40-49
 - 50-59
-- 60-64
-- 65+ 
+- > 60 
 
 Which of the following best describes your primary job as a pharmacist? 
 
@@ -281,7 +301,13 @@ Which of the following best describes your primary job as a pharmacist?
 - Academic
 - Other. (Please specify: )
 
-How many years of working experience do you have?
+IF STUDENT: Which year of the pharmacy program are you currently in?
+
+- Year 2
+- Year 3
+- Year 4
+
+IF PRACTITIONER OR EDUCATOR: How many years of working experience do you have?
 
 - 1-3 years 
 - 3-5 years 
