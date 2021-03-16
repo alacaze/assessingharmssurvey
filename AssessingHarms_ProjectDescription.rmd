@@ -52,20 +52,20 @@ Version `r system('git describe --tags', intern = TRUE)` (`r system('git log -1 
 
 # Roles
 
-Anvir Dhaliwal is an fourth year BPharm(Hons) student completing her Major of Clinical and Experimental Therapeutics project.
+Anvir Dhaliwal is a fourth year BPharm(Hons) student completing her Major of Clinical and Experimental Therapeutics project.
 Anvir will be responsible for distributing the survey, recruiting participants, analysing and reporting the results.
 
-Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
-Nazanin is has responsibility for overseeing the project and supervising Anvir.
+Nazanin Ghahreman-Falconer is a Research Fellow, Centre for Health Services Research.
+Nazanin has the responsibility for overseeing the project and supervising Anvir.
 
-Adam La Caze is Senior Lecturer, School of Pharmacy.
-He has overall responsibility for the project and supervising Anvir.
+Adam La Caze is a Senior Lecturer, School of Pharmacy.
+He has the overall responsibility for the project and supervising Anvir.
 
 
 # Synopsis
 
 Pharmacists need to be able to assess statistical evidence regarding the harms of medicines.
-This includes being able to appropriately interpret statistical findings such as $p$ values and confidence intervals and understanding some of the common limitations of methods used to collect data on drug harms.
+This includes being able to appropriately interpret statistical findings such as $p$-values and confidence intervals and understanding some of the common limitations of methods used to collect data on drug harms.
 
 Previous research has demonstrated that a wide variety of professionals frequently misinterpret statistical findings.
 This study will use a brief online survey to assess the extent to which pharmacists, pharmacy students and pharmacy educators correctly interpret statistical findings related to drug harm.
@@ -132,7 +132,7 @@ It contains:
 
    * Brief demographic information
    * 2 questions regarding use of evidence for drug harms
-   * 3 brief scenarios that provide the results from clinical studies reporting drug harms (@Bresalier:2005pi and @Fitchett2018) that ask participants to answer YES or NO to four to six statements interpreting the results that are presented.
+   * 3 brief scenarios that provide the results from clinical studies reporting drug harms (@Bresalier:2005pi and @Fitchett2018) that ask participants to answer TRUE or FALSE to four to six statements interpreting the results that are presented.
 
 The survey text is provided in the [Appendix](#survey).
 
@@ -166,7 +166,7 @@ Recruitment for the three groups of participants will proceed as follows:
 
    Pharmacy students will be recruited by posting an invitation to complete the survey posted to the Blackboard Hub sites for students in Y2, Y3 and Y4.
 
-Invitations to participate will be send via email, posted on Hub sites and social media on three occasions: the initial invite, 2-week follow-up and 5-week follow-up.
+Invitations to participate will be sent via email, posted on Hub sites and social media on three occasions: the initial invite, 2-week follow-up and 5-week follow-up.
 
 Email invitations will include information regarding the 2 and 5-week follow-up and provide an avenue for prospective participants to opt-out of these emails.
 
@@ -398,7 +398,7 @@ Please mark each of the statements below as “true” or “false”. False mea
 
 ## Email
 
-Dear Colleague
+Dear Colleague,
 
 We invite you to take part in a short online survey regarding the appropriate interpretation of statistical findings in relation to drug harms.
 
