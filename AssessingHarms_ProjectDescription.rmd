@@ -67,6 +67,8 @@ He has the overall responsibility for the project and supervising Anvir.
 Pharmacists need to be able to assess statistical evidence regarding the harms of medicines.
 This includes being able to appropriately interpret statistical findings such as $p$-values and confidence intervals and understanding some of the common limitations of methods used to collect data on drug harms.
 
+blah
+
 Previous research has demonstrated that a wide variety of professionals frequently misinterpret statistical findings.
 This study will use a brief online survey to assess the extent to which pharmacists, pharmacy students and pharmacy educators correctly interpret statistical findings related to drug harm.
 
