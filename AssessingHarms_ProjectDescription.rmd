@@ -55,10 +55,10 @@ Version `r system('git describe --tags', intern = TRUE)` (`r system('git log -1 
 Anvir Dhaliwal is a fourth year BPharm(Hons) student completing her Major of Clinical and Experimental Therapeutics project.
 Anvir will be responsible for distributing the survey, recruiting participants, analysing and reporting the results.
 
-Nazanin Ghahreman-Falconer is a Research Fellow, Centre for Health Services Research.
+Nazanin Ghahreman-Falconer is Research Fellow, Centre for Health Services Research.
 Nazanin has the responsibility for overseeing the project and supervising Anvir.
 
-Adam La Caze is a Senior Lecturer, School of Pharmacy.
+Adam La Caze is Senior Lecturer, School of Pharmacy.
 He has the overall responsibility for the project and supervising Anvir.
 
 
@@ -271,7 +271,9 @@ By completing this survey, you are consenting to participate in the study.
 You may exit the survey and withdraw consent at any time by closing the web browser. 
 Once the survey has been submitted consent cannot be withdrawn as the responses are de-identified.
 
-This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email humanethics@research.uq.edu.au.
+This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email [humanethics@research.uq.edu.au](mailto:humanethics@research.uq.edu.au).
+
+Please email Anvir Dhaliwal ([anvir.dhaliwal@uq.net.au](mailto:anvir.dhaliwal@uq.net.au)) or Adam La Caze ([a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au)) to receive a summary of the results of the study.
 
 ---
 
@@ -398,7 +400,7 @@ Please mark each of the statements below as “true” or “false”. False mea
 
 ## Email
 
-Dear Colleague,
+Dear Colleague
 
 We invite you to take part in a short online survey regarding the appropriate interpretation of statistical findings in relation to drug harms.
 
