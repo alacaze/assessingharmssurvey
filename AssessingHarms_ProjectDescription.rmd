@@ -261,8 +261,16 @@ The questions are in the public domain.
 
 ---
 
+**How do pharmacists assess evidence of drug harms?**
+
+Anvir Dhaliwal, Major in Clinical and Experimental Therapeutics Student, School of Pharmacy, The University of Queensland.  
+Nazanin Falconer, Research Fellow, Centre of Health Services Research, The University of Queensland.  
+Adam La Caze, Senior Lecturer, School of Pharmacy, The University of Queensland.
+
+
 This survey invites pharmacists, pharmacy students and pharmacy educators to answer questions regarding how they assess statistical evidence of drug harms. 
 
+Participation is voluntary.
 The survey will take up to 10 minutes to complete. We encourage you to answer each question to the best of your knowledge even if you are unsure.
 
 No identifying data is collected as part of the survey.
@@ -270,6 +278,7 @@ No identifying data is collected as part of the survey.
 By completing this survey, you are consenting to participate in the study. 
 You may exit the survey and withdraw consent at any time by closing the web browser. 
 Once the survey has been submitted consent cannot be withdrawn as the responses are de-identified.
+Participation, or non-participation, in this study will not effect your relationship with the investigators or University of Queensland in any way.
 
 This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email [humanethics@research.uq.edu.au](mailto:humanethics@research.uq.edu.au).
 
@@ -406,6 +415,7 @@ We invite you to take part in a short online survey regarding the appropriate in
 
 The survey is part of Anvir Dhaliwal's BPharm(Hons) Major in Clinical and Experimental Therapeutics.
 
+Participation is voluntary.
 The survey will take approximately 10 minutes.
 No identifying information is collected as part of the survey.
 
