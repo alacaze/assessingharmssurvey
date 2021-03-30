@@ -279,6 +279,7 @@ By completing this survey, you are consenting to participate in the study.
 You may exit the survey and withdraw consent at any time by closing the web browser. 
 Once the survey has been submitted consent cannot be withdrawn as the responses are de-identified.
 Participation, or non-participation, in this study will not effect your relationship with the investigators or University of Queensland in any way.
+Participants are not expected to directly benefit from completing the study.
 
 This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email [humanethics@research.uq.edu.au](mailto:humanethics@research.uq.edu.au).
 
@@ -454,9 +455,9 @@ Thank you for your time.
 
 Kind Regards  
 
-Anvir Dhaliwal  
-Nazanin Ghahreman-Falconer  
-Adam La Caze  
+Anvir Dhaliwal  ([anvir.dhaliwal@uq.net.au](mailto:anvir.dhaliwal@uq.net.au))
+Nazanin Ghahreman-Falconer  ([n.ghahremanfalconer@uq.edu.au](mailto:n.ghahremanfalconer@uq.edu.au))
+Adam La Caze  ([a.lacaze@uq.edu.au](mailto:a.lacaze@uq.edu.au))
 
 This study adheres to the Guidelines of the ethical review process of The University of Queensland and the National Statement on Ethical Conduct in Human Research. Whilst you are free to discuss your participation in this study with the researcher contactable on [a.lacaze@uq.edu](mailto:a.lacaze@uq.edu.au) if you would like to speak to an officer of the University not involved in the study, you may contact the Ethics Coordinator on +617 3365 3924 / +617 3443 1656 or email humanethics@research.uq.edu.au.
 
